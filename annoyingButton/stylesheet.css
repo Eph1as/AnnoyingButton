@@ -1,0 +1,17 @@
+#count {
+    font-size: 29px;
+}
+
+#button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(43, 82, 126);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 2.5em;
+    transition: transform 0.2 ease-in-out;
+
+}
