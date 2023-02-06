@@ -1,8 +1,7 @@
 let count = document.getElementById("count")
-let button = document.getElementById("button")
+let button = document.getElementById("teleport-button")
 let c = 1;
 
-console.log(y)
 
 function counter() {
     let wert1 = ~~(Math.random() * 256)
@@ -16,6 +15,7 @@ function counter() {
 }
 
 function teleport () {
+
     let screenWidth = window.innerWidth;
     let screenHeight = window.innerHeight;
 
